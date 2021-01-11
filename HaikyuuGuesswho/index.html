@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Haikyuu Guess Who</title>
+        <script src="game.js"></script>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Haikyuu! Guess Who!!!</h1>
+        <div class = "main-content">
+
+            <!-- Your character -->
+                <div class="sidebar">
+                    <div class="container">
+                        <div id="me"></div>
+                        <h3 id="name"></h3>
+                    </div>
+                </div>
+
+            <!-- Game Board -->
+                <div id="gameboard">
+                    <div class="card"><img src="img/daichi.jpg" id = "daichi" onclick = "flip('daichi','img/daichi.jpg');"></div>
+                    <div class="card"><img src="img/suga.jpg" id = "suga" onclick = "flip('suga', 'img/suga.jpg');"></div>
+                    <div class="card"><img src="img/asahi.jpg" id = "asahi" onclick = "flip('asahi', 'img/asahi.jpg');"></div>
+                    <div class="card"><img src="img/noya.jpg" id = "noya" onclick = "flip('noya', 'img/noya.jpg');"></div>
+                    <div class="card"><img src="img/tanaka.jpg" id = "tanaka" onclick = "flip('tanaka', 'img/tanaka.jpg');"></div>
+                    <div class="card"><img src="img/enoshia.jpg" id = "enoshita" onclick = "flip('enoshita', 'img/enoshia.jpg');"></div>
+                    <div class="card"><img src="img/kageyama.jpg" id = "kageyama" onclick = "flip('kageyama', 'img/kageyama.jpg');"></div>
+                    <div class="card"><img src="img/hinata.jpg" id = "hinata" onclick = "flip('hinata', 'img/hinata.jpg');"></div>
+                    <div class="card"><img src="img/Yamaguchi.jpg" id = "yamaguchi" onclick = "flip('yamaguchi', 'img/Yamaguchi.jpg');"></div>
+                    <div class="card"><img src="img/tsuki.jpg" id = "tsuki" onclick = "flip('tsuki', 'img/tsuki.jpg');"></div>
+                    <div class="card"><img src="img/takeda.jpg" id = "takeda" onclick = "flip('takeda', 'img/takeda.jpg');"></div>
+                    <div class="card"><img src="img/ukai.jpg" id = "ukai" onclick = "flip('ukai', 'img/ukai.jpg');"></div>
+                    <div class="card"><img src="img/yachi.jpg" id = "yachi" onclick = "flip('yachi', 'img/yachi.jpg');"></div>
+                    <div class="card"><img src="img/kiyoko.jpg" id = "kiyoko" onclick = "flip('kiyoko', 'img/kiyoko.jpg');"></div>
+                    <div class="card"><img src="img/saeko.jpg" id = "saeko" onclick = "flip('saeko', 'img/saeko.jpg');"></div>
+
+                    <div class="card"><img src="img/kenma.jpg" id = "kenma" onclick = "flip('kenma', 'img/kenma.jpg');"></div>
+                    <div class="card"><img src="img/kuroo.jpg" id = "kuroo" onclick = "flip('kuroo', 'img/kuroo.jpg');"></div>
+                    <div class="card"><img src="img/lev.jpg" id = "lev" onclick = "flip('lev', 'img/lev.jpg');"></div>
+                    <div class="card"><img src="img/bokuto.jpg" id = "bokuto" onclick = "flip('bokuto', 'img/bokuto.jpg');"></div>
+                    <div class="card"><img src="img/akaashi.jpg" id = "akaashi" onclick = "flip('akaashi', 'img/asahi.jpg');"></div>
+                    <div class="card"><img src="img/oikawa.jpg" id = "oikawa" onclick = "flip('oikawa', 'img/oikawa.jpg');"></div>
+                    <div class="card"><img src="img/aone.jpg" id = "aone" onclick = "flip('aone', 'img/aone.jpg');"></div>
+                    <div class="card"><img src="img/atsumu.jpg" id = "atsumu" onclick = "flip('atsumu', 'img/atsumu.jpg');"></div>
+                    <div class="card"><img src="img/tendou.jpg" id = "tendou" onclick = "flip('tendou', 'img/tendou.jpg');"></div>
+                    <div class="card"><img src="img/ushijima.jpg" id = "ushijima" onclick = "flip('ushijima', 'img/ushijima.jpg');"></div>
+                </div>
+
+            <!--score-->
+            <div class="tracker">
+                <div id="score"></div>
+                <p>Did you win?</p>
+                <div class="buttons">
+                    <button id="win" type="button">Yes</button>
+                    <button id="loss" type="button">No</button>
+                </div>
+            </div>
+
+        <img style="display:none;" src="img/background.jpg">
+
+        </div>
+    </body>
+</html>

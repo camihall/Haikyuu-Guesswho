@@ -1,0 +1,46 @@
+button{
+    background-color: #031742;
+    color: #F99B3C;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Yeon Sung', cursive;
+}
+
+p, h1{
+    font-family: 'Yeon Sung', cursive;
+    color: #031742;
+}
+
+body{
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+#gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+  
+  .card {
+    
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+
+  
